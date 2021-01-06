@@ -8,20 +8,23 @@
 import SwiftUI
 
 struct AnnouncementRow: View {
+    var annoucement: Announcement
+    
     var body: some View {
         HStack {
-            Text("번호")
+            Text(String(annoucement.number))
                 .padding()
-            Text("제목")
+            Text(annoucement.title)
                 .padding()
-            Text("날짜")
+            Text(annoucement.date)
                 .padding()
         }
     }
 }
 
 struct AnnouncementRow_Previews: PreviewProvider {
+    static var announcements = Announcement(number: 4444, classification: "test", link: "test.com", title: "test", date: "2021.1.1")
     static var previews: some View {
-        AnnouncementRow()
+        AnnouncementRow(annoucement: announcements)
     }
 }
