@@ -9,7 +9,6 @@ import SwiftUI
 
 struct AnnouncementList: View {
     
-    
     var body: some View {
         NavigationView {
             List {

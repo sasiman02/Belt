@@ -13,6 +13,4 @@ struct Announcement {
     var link: String
     var title: String
     var date: String
-    
-    
 }
