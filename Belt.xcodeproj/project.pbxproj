@@ -19,6 +19,8 @@
 		7A358F0925A4A15C004A40B8 /* AnnouncementRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A358F0725A4A15C004A40B8 /* AnnouncementRow.swift */; };
 		7A358F0F25A4A1A1004A40B8 /* AnnouncementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A358F0E25A4A1A1004A40B8 /* AnnouncementList.swift */; };
 		7A358F1025A4A1A1004A40B8 /* AnnouncementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A358F0E25A4A1A1004A40B8 /* AnnouncementList.swift */; };
+		7A8A9C9125AB09DA00F2BF6F /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8A9C9025AB09DA00F2BF6F /* NetworkHandler.swift */; };
+		7A8A9C9225AB09DA00F2BF6F /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8A9C9025AB09DA00F2BF6F /* NetworkHandler.swift */; };
 		7A94248E25A5BD9D00E434EA /* Announcement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A94248D25A5BD9D00E434EA /* Announcement.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,7 @@
 		7A358EE925A4A0FE004A40B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A358F0725A4A15C004A40B8 /* AnnouncementRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementRow.swift; sourceTree = "<group>"; };
 		7A358F0E25A4A1A1004A40B8 /* AnnouncementList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementList.swift; sourceTree = "<group>"; };
+		7A8A9C9025AB09DA00F2BF6F /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 		7A94248D25A5BD9D00E434EA /* Announcement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Announcement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +113,7 @@
 				7A358F0225A4A107004A40B8 /* Views */,
 				7A358EC125A4A0FD004A40B8 /* BeltApp.swift */,
 				7A358EC325A4A0FE004A40B8 /* Assets.xcassets */,
+				7A8A9C9025AB09DA00F2BF6F /* NetworkHandler.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -348,6 +352,7 @@
 				7A358EEA25A4A0FE004A40B8 /* BeltApp.swift in Sources */,
 				7A94248E25A5BD9D00E434EA /* Announcement.swift in Sources */,
 				7A358F0825A4A15C004A40B8 /* AnnouncementRow.swift in Sources */,
+				7A8A9C9125AB09DA00F2BF6F /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +363,7 @@
 				7A358F1025A4A1A1004A40B8 /* AnnouncementList.swift in Sources */,
 				7A358EED25A4A0FE004A40B8 /* ContentView.swift in Sources */,
 				7A358EEB25A4A0FE004A40B8 /* BeltApp.swift in Sources */,
+				7A8A9C9225AB09DA00F2BF6F /* NetworkHandler.swift in Sources */,
 				7A358F0925A4A15C004A40B8 /* AnnouncementRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
