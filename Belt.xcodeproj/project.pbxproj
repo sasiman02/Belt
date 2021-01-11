@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A07E98225AC818000CE5D58 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07E98125AC818000CE5D58 /* User.swift */; };
+		7A07E98E25AC85C700CE5D58 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07E98D25AC85C700CE5D58 /* TodoList.swift */; };
+		7A07E99C25AC887400CE5D58 /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07E99B25AC887400CE5D58 /* Init.swift */; };
 		7A358EDD25A4A0FE004A40B8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A358EDC25A4A0FE004A40B8 /* Tests_iOS.swift */; };
 		7A358EE825A4A0FE004A40B8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A358EE725A4A0FE004A40B8 /* Tests_macOS.swift */; };
 		7A358EEA25A4A0FE004A40B8 /* BeltApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A358EC125A4A0FD004A40B8 /* BeltApp.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A07E98125AC818000CE5D58 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7A07E98D25AC85C700CE5D58 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		7A07E99B25AC887400CE5D58 /* Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
 		7A358EC125A4A0FD004A40B8 /* BeltApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltApp.swift; sourceTree = "<group>"; };
 		7A358EC225A4A0FD004A40B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A358EC325A4A0FE004A40B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -169,6 +175,8 @@
 			children = (
 				7A358F1525A4A1A4004A40B8 /* Announcement */,
 				7A358EC225A4A0FD004A40B8 /* ContentView.swift */,
+				7A07E99B25AC887400CE5D58 /* Init.swift */,
+				7A07E98D25AC85C700CE5D58 /* TodoList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				7A94248D25A5BD9D00E434EA /* Announcement.swift */,
+				7A07E98125AC818000CE5D58 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -350,9 +359,12 @@
 				7A358F0F25A4A1A1004A40B8 /* AnnouncementList.swift in Sources */,
 				7A358EEC25A4A0FE004A40B8 /* ContentView.swift in Sources */,
 				7A358EEA25A4A0FE004A40B8 /* BeltApp.swift in Sources */,
+				7A07E99C25AC887400CE5D58 /* Init.swift in Sources */,
 				7A94248E25A5BD9D00E434EA /* Announcement.swift in Sources */,
 				7A358F0825A4A15C004A40B8 /* AnnouncementRow.swift in Sources */,
 				7A8A9C9125AB09DA00F2BF6F /* NetworkHandler.swift in Sources */,
+				7A07E98225AC818000CE5D58 /* User.swift in Sources */,
+				7A07E98E25AC85C700CE5D58 /* TodoList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
