@@ -9,6 +9,7 @@ import SwiftUI
 
 struct TodoList: View {
     var body: some View {
+        
         List {
             Text("할 일이 있어 나는.")
             Text("할 일이 있어 나는.")
@@ -16,7 +17,9 @@ struct TodoList: View {
             Text("할 일이 있어 나는.")
             Text("할 일이 있어 나는.")
         }
+        .navigationBarTitle("이수 목록")
     }
+    
 }
 
 struct TodoList_Previews: PreviewProvider {

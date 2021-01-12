@@ -11,17 +11,19 @@ struct Init: View {
     @EnvironmentObject var user: User
     @State var tag: Int? = nil
     var body: some View {
-        VStack {
-            NavigationLink(
-                destination: ContentView(),
-                tag: 1,
-                selection: self.$tag,
-                label: {EmptyView()})
-            TextField("사용자 이름을 입력하시오", text: $user.name)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-            Button(action: {self.tag = 1}, label: {
-                Text("Button")
-            })
+        NavigationView{
+            VStack {
+                NavigationLink(
+                    destination: ContentView(),
+                    tag: 1,
+                    selection: self.$tag,
+                    label: {EmptyView()})
+                TextField("사용자 이름을 입력하시오", text: $user.name)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+                Button(action: {self.tag = 1}, label: {
+                    Text("Button")
+                })
+            }
         }
     }
 }

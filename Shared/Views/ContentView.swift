@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selection: Tab = .featured
-    
+    @EnvironmentObject var user: User
     enum Tab {
         case featured
         case list
+        case setting
     }
     
     var body: some View {
+        if user.name == "" {
+            Init()
+        }
         TabView(selection: $selection) {
             TodoList()
                 .tabItem {
@@ -28,7 +32,13 @@ struct ContentView: View {
                     Label("학사 공지", systemImage: "list.bullet")
                 }
                 .tag(Tab.list)
+            
+            Setting()
+                .tabItem {
+                    Label("설정", systemImage: "gear")
+                }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
