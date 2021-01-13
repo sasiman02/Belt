@@ -17,25 +17,29 @@ struct ContentView: View {
     }
     
     var body: some View {
-        if user.name == "" {
-            Init()
-        }
+//        if user.name == "" {
+//            Init()
+//        }
         TabView(selection: $selection) {
             TodoList()
                 .tabItem {
-                    Label("이수 목록", systemImage: "star")
+                    Image("mainPage1Btn")
+                        .resizable()
+                        
                 }
                 .tag(Tab.featured)
             
             AnnouncementList()
                 .tabItem {
-                    Label("학사 공지", systemImage: "list.bullet")
+                    Image("mainPage2Btn")
+                        .resizable()
                 }
                 .tag(Tab.list)
             
             Setting()
                 .tabItem {
-                    Label("설정", systemImage: "gear")
+                    Image("settingPageBtn")
+                        .resizable()
                 }
         }
         .navigationBarBackButtonHidden(true)

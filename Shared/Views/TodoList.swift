@@ -10,13 +10,19 @@ import SwiftUI
 struct TodoList: View {
     var body: some View {
         
-        List {
-            Text("할 일이 있어 나는.")
-            Text("할 일이 있어 나는.")
-            Text("할 일이 있어 나는.")
-            Text("할 일이 있어 나는.")
-            Text("할 일이 있어 나는.")
+        VStack(alignment: .center){
+            Group {
+                Text("to-do list.to-do list.to-do list.to-do list.")
+                Text("to-do list.to-do list.to-do list.to-do list.")
+                Text("to-do list.to-do list.to-do list.to-do list.")
+            }
+            .foregroundColor(Color.white)
+            .background(
+                Image("checklist")
+                    .resizable()
+                    .frame(width: .infinity, height: 50, alignment: .center))
         }
+        
         .navigationBarTitle("이수 목록")
     }
     
