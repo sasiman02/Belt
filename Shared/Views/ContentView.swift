@@ -25,7 +25,7 @@ struct ContentView: View {
                 .tabItem {
                     Image("mainPage1Btn")
                         .resizable()
-                        
+                        .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 }
                 .tag(Tab.featured)
             
@@ -33,6 +33,7 @@ struct ContentView: View {
                 .tabItem {
                     Image("mainPage2Btn")
                         .resizable()
+                        .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 }
                 .tag(Tab.list)
             
@@ -40,6 +41,8 @@ struct ContentView: View {
                 .tabItem {
                     Image("settingPageBtn")
                         .resizable()
+                        
+                        .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 }
         }
         .navigationBarBackButtonHidden(true)

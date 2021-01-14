@@ -11,7 +11,7 @@ import SwiftUI
 struct BeltApp: App {
     var body: some Scene {
         WindowGroup {
-            Init()
+            ContentView()
         }
     }
 }
