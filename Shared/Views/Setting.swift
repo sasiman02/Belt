@@ -9,13 +9,15 @@ import SwiftUI
 
 struct Setting: View {
     var body: some View {
-        VStack {
-            Text("설정")
-            Text("설정")
-            Text("설정")
-            Text("설정")
+        NavigationView {
+            List {
+                Text("설정")
+                Text("설정")
+                Text("설정")
+                Text("설정")
+            }
+            .navigationBarTitle("설정")
         }
-        .navigationBarTitle("설정")
         
     }
 }

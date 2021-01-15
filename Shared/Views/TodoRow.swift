@@ -18,7 +18,7 @@ struct TodoRow: View {
             Text("해야할 것들이 있다.")
                 .foregroundColor(Color.white)
         }
-        .padding(.top, 15)
+        .padding(.top, 10)
     }
 }
 

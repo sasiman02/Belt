@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TodoList: View {
+    @EnvironmentObject var user: User
     var body: some View {
         NavigationView {
             ScrollView {
@@ -20,7 +21,12 @@ struct TodoList: View {
                     TodoRow()
                 }
             }
-            .navigationBarTitle("이수 목록")
+            .navigationBarTitle("김현수의 이수 목록")
+            .toolbar(content: {
+                Button(action: { }) {
+                    Image(systemName: "plus.circle")
+                }
+            })
         }
     }
 }

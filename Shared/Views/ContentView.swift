@@ -23,27 +23,24 @@ struct ContentView: View {
         TabView(selection: $selection) {
             TodoList()
                 .tabItem {
-                    Image("mainPage1Btn")
-                        .resizable()
-                        .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    Image(systemName: "checkmark.circle")
+                    Text("이수 목록")
                 }
                 .tag(Tab.featured)
             
             AnnouncementList()
                 .tabItem {
-                    Image("mainPage2Btn")
-                        .resizable()
-                        .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    Image(systemName: "list.bullet")
+                    Text("학사 공지")
                 }
                 .tag(Tab.list)
             
             Setting()
                 .tabItem {
-                    Image("settingPageBtn")
-                        .resizable()
-                        
-                        .frame(width: 50, height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    Image(systemName: "gearshape")
+                    Text("설정")
                 }
+                .tag(Tab.setting)
         }
         .navigationBarBackButtonHidden(true)
     }
