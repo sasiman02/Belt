@@ -12,6 +12,7 @@
 		7A07E99C25AC887400CE5D58 /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07E99B25AC887400CE5D58 /* Init.swift */; };
 		7A07E9A225AD4B8500CE5D58 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07E9A125AD4B8500CE5D58 /* Setting.swift */; };
 		7A07E9A825B0223C00CE5D58 /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07E9A725B0223B00CE5D58 /* TodoRow.swift */; };
+		7A07E9C225B3280F00CE5D58 /* SettingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A07E9C125B3280F00CE5D58 /* SettingRow.swift */; };
 		7A358EDD25A4A0FE004A40B8 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A358EDC25A4A0FE004A40B8 /* Tests_iOS.swift */; };
 		7A358EE825A4A0FE004A40B8 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A358EE725A4A0FE004A40B8 /* Tests_macOS.swift */; };
 		7A358EEA25A4A0FE004A40B8 /* BeltApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A358EC125A4A0FD004A40B8 /* BeltApp.swift */; };
@@ -52,6 +53,7 @@
 		7A07E99B25AC887400CE5D58 /* Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
 		7A07E9A125AD4B8500CE5D58 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		7A07E9A725B0223B00CE5D58 /* TodoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRow.swift; sourceTree = "<group>"; };
+		7A07E9C125B3280F00CE5D58 /* SettingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRow.swift; sourceTree = "<group>"; };
 		7A358EC125A4A0FD004A40B8 /* BeltApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeltApp.swift; sourceTree = "<group>"; };
 		7A358EC225A4A0FD004A40B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A358EC325A4A0FE004A40B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				7A358EC225A4A0FD004A40B8 /* ContentView.swift */,
 				7A07E99B25AC887400CE5D58 /* Init.swift */,
 				7A07E9A125AD4B8500CE5D58 /* Setting.swift */,
+				7A07E9C125B3280F00CE5D58 /* SettingRow.swift */,
 				7A07E98D25AC85C700CE5D58 /* TodoList.swift */,
 				7A07E9A725B0223B00CE5D58 /* TodoRow.swift */,
 			);
@@ -367,6 +370,7 @@
 				7A358EEC25A4A0FE004A40B8 /* ContentView.swift in Sources */,
 				7A358EEA25A4A0FE004A40B8 /* BeltApp.swift in Sources */,
 				7A07E99C25AC887400CE5D58 /* Init.swift in Sources */,
+				7A07E9C225B3280F00CE5D58 /* SettingRow.swift in Sources */,
 				7A94248E25A5BD9D00E434EA /* Announcement.swift in Sources */,
 				7A358F0825A4A15C004A40B8 /* AnnouncementRow.swift in Sources */,
 				7A8A9C9125AB09DA00F2BF6F /* NetworkHandler.swift in Sources */,

@@ -27,7 +27,9 @@ struct TodoList: View {
                     Image(systemName: "plus.circle")
                 }
             })
+            .background(LinearGradient(gradient: Gradient(colors: [Color.white, Color.purple]), startPoint: .top, endPoint: .bottom))
         }
+        
     }
 }
 
