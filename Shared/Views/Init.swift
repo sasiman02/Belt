@@ -21,7 +21,10 @@ struct Init: View {
                 TextField("사용자 이름을 입력하시오", text: $user.name)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 Button(action: {self.tag = 1}, label: {
-                    Text("Button")
+                    Image("startBtn")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 75, height: 75, alignment: )
                 })
             }
         }
