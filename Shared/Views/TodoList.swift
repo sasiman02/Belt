@@ -21,7 +21,7 @@ struct TodoList: View {
                     TodoRow()
                 }
             }
-            .navigationBarTitle("김현수의 이수 목록")
+            .navigationBarTitle("\(user.name)의 이수 목록")
             .toolbar(content: {
                 Button(action: { }) {
                     Image(systemName: "plus.circle")

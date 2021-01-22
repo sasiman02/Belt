@@ -27,6 +27,7 @@ struct ContentView: View {
                     Text("이수 목록")
                 }
                 .tag(Tab.featured)
+                .environmentObject(user)
             
             AnnouncementList()
                 .tabItem {
@@ -34,6 +35,7 @@ struct ContentView: View {
                     Text("학사 공지")
                 }
                 .tag(Tab.list)
+                .environmentObject(user)
             
             Setting()
                 .tabItem {
@@ -41,6 +43,7 @@ struct ContentView: View {
                     Text("설정")
                 }
                 .tag(Tab.setting)
+                .environmentObject(user)
         }
         .navigationBarBackButtonHidden(true)
     }

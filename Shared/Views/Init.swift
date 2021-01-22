@@ -14,7 +14,8 @@ struct Init: View {
         NavigationView{
             VStack {
                 NavigationLink(
-                    destination: ContentView(),
+                    destination: ContentView()
+                        .environmentObject(user),
                     tag: 1,
                     selection: self.$tag,
                     label: {EmptyView()})
@@ -22,12 +23,6 @@ struct Init: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                 Button(action: {self.tag = 1}, label: {
                     Image("startBtn")
-                        .overlay(
-                            Image(systemName: "Circle")
-                                .resizable()
-                                .frame(width: 75, height: 75)
-                                .padding(/*@START_MENU_TOKEN@*/EdgeInsets()/*@END_MENU_TOKEN@*/)
-                        )
                         .resizable()
                         .scaledToFit()
                         .frame(width: 75, height: 75)
